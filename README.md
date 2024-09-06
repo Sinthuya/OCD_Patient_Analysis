@@ -40,7 +40,7 @@ SELECT gender, COUNT(patient_id) AS patient_count, round((COUNT(*) / (SELECT COU
 FROM ocd_patient_data
 GROUP BY gender
 ORDER BY patient_coun
-```Sql
+```
 
 - What is the Count of patients by Ethnicity and thier respective average obsession score?
 ```Sql
@@ -53,7 +53,7 @@ GROUP BY
     YEAR(ocd_diagnosis_date)
 ORDER BY 
     diagnosis_year;
-```Sql
+```
 
 - What is the most common obsession type & its respective average obsession score?
 ```Sql
@@ -62,7 +62,7 @@ FROM ocd_patient_data
 GROUP BY Obsession_Type
 ORDER BY  obs_type_count DESC
 LIMIT 1;
-```Sql
+```
 
 - What is the most common compulsion type & its respective average obsession score?
 ```Sql
@@ -71,7 +71,7 @@ FROM ocd_patient_data
 GROUP BY Compulsion_Type
 ORDER BY  compul_type_count DESC
 LIMIT 1;
-```Sql
+```
 
 ### Results and Findings
 
