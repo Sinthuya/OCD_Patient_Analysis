@@ -19,6 +19,7 @@ Tableau Dashboard [Click here](https://public.tableau.com/app/profile/sinthuya.s
 
 ### Data sources
 The dataset used in this analysis is fictional and contains 1,500 patients diagnosed with Obsessive-Compulsive Disorder. It includes demographic and clinical information such as Y-BOCS scores, OCD subtypes, and co-occurring conditions.
+Kaggle link: (https://www.kaggle.com/datasets/ohinhaque/ocd-patient-dataset-demographics-and-clinical-data/)
 
 ### Tools
 - MySQL Workbench - data cleaning and analysis
